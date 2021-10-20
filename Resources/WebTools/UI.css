@@ -1,0 +1,53 @@
+body {
+	background-color: black;
+}
+body {
+	margin: 0px;0
+	padding: 0px;
+}
+#sign-up-frame {
+	background-color: white;
+	border-radius: 10px;
+	height: 700px;
+	left: 50%;
+	margin-left: -292px;
+	margin-top: 5px;
+	position: relative;
+	width: 584px;
+}
+#sign-up-frame h1, h2 {
+	font-family: sans-serif;
+	font-size: 28px;
+	margin: 0px;
+	text-align: center;
+}
+#sign-up-frame h1 {
+	margin-top: 8px;
+}
+#sign-up-frame h2 {
+	font-size: 26px;
+	margin: 5px;
+}
+#sign-up-frame img {
+	border-radius: 10px 10px 0px 0px;
+	height: 350px;
+	width: 584px;
+}
+#sign-up-frame input[type=button] {
+	background-color: green;
+	border: 0px;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	height: 35px;
+	margin: 10px 0px 5px 10px;
+	width: calc(100% - 21px);
+}
+#sign-up-frame input[type=button]:hover {
+	background-color: darkgreen;
+}
+#sign-up-frame input[type=password], input[type=text] {
+	height: 30px;
+	margin: 10px 0px 5px 10px;
+	width: calc(100% - 31px);
+}
